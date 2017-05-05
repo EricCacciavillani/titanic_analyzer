@@ -4,12 +4,12 @@ In this project we are going to use data structures and algorithms to find out s
 
 ---
 
-### Dataset
+## Dataset
 For this project you will be using a real dataset that was gathered on titanic and contains information on every passenger on the ship. The dataset includes their ticket class, age, sex and whether or not they survived (see `titanic.csv`).
 
 ---
 
-### Data Structures and Algorithms
+## Data Structures and Algorithms
 1.	Apriori: association mining algorithm
 2.  BacktrackAPRS custum-designed prediction algorithm
 
