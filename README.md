@@ -22,7 +22,34 @@ For this project you will be using a real dataset that was gathered on titanic a
 
  
 ## Implementation
+The source code is very well-documented explaining in detail every process individually, and how it contributes to the overall structure of the project.
 
+#### Initialization process & Apriori Algorithm:
+ - Input Passengers' Data
+ - Setup first level of sets using a single passenger's attribute 
+ - Run minimum support test
+ - Setup the second level of sets using only the sets that passed the min-support test.
+ - Run the minimum support test again and apply the same method till no set passes the test anymore
+
+![figure1](https://github.com/thaer275/titanic_analyzer/blob/master/figure1.png)
+
+---
+
+#### Results of Apriori Algorithm:
+The results of the Apriori algorithm are saved to a customized structure that was designed specifically for the purpose and scope of this project.
+
+![figure2](https://github.com/thaer275/titanic_analyzer/blob/master/figure2.png)
+
+---
+
+#### BacktrackAPRS Algorithm:
+ - Ask user for passenger info
+ - Check rules' table for a corresponding rule
+ - Present rule result to the user 
+ - If no rule was found: collect all possible sets that could help to make a prediction from the rules table.
+ - Use available statistical data to provide a meaningful prediction for the new user.
+
+![figure3](https://github.com/thaer275/titanic_analyzer/blob/master/figure3.png)
 
 
 
