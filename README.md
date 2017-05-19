@@ -54,4 +54,4 @@ The results of the Apriori algorithm are saved to a customized structure that wa
 
 
 ## License
-Licensed under the MIT License.
+Licensed under the MIT License. 
